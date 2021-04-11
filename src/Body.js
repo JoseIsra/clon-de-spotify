@@ -7,7 +7,7 @@ import PlayCircleFilledOutlinedIcon from '@material-ui/icons/PlayCircleFilledOut
 import SongRow from './SongRow';
 
 function Body({ spotify }) {
-    const [{ myplaylist }, dispatch] = useDataLayerValue();
+    const [{ myplaylist }] = useDataLayerValue();
     console.log(myplaylist)
     return (
         <div className="body">
